@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Expenses from "./components/Expenses";
 
@@ -28,6 +29,15 @@ function App() {
       date: new Date(2021, 5, 10),
     },
   ];
+
+  /* React code without Jsx */
+  // return React.createElement(
+  //   "div",
+  //   {},
+  //   React.createElement("h2", {}, "Lets get Started!"),
+  //   React.createElement(Expenses, { items: expenses })
+  // );
+
   return (
     <div>
       <h2>Let's get started !</h2>
